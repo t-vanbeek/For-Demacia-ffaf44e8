@@ -8,6 +8,6 @@ $klasgenoten = array(
 );
 $aantal = count($klasgenoten);
 
-for ($getal1 = 1; $getal1 <= $aantal; $getal1++) {
+for ($getal1 = 5; $aantal = $getal1; $getal1--) {
     echo $klasgenoten[$getal1] . PHP_EOL;
 }
